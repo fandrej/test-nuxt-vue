@@ -1,0 +1,31 @@
+Установка.
+
+cd /var/www/test
+# install Node.js + NPM:
+sudo apt-get update
+sudo apt-get install curl
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install build-essential nodejs
+node --version
+# v14.5.0
+npm --version
+# 6.14.5
+
+# install vue-cli:
+sudo npm install -g @vue/cli @vue/cli-init
+# + @vue/cli-init@4.4.6
+# + @vue/cli@4.4.6
+# added 1481 packages from 694 contributors in 157.404s
+
+cd project-Symmetrica
+npm install
+npm install @nuxt/http --save
+npm install vue-json-pretty --save
+npm install bootstrap-vue --save
+
+# run:
+cd /var/www/test/project-Symmetrica
+npm run dev
+
+# in browser goto
+http://<host>:3000/
