@@ -24,18 +24,17 @@
         </b-collapse>
 
         <div class="d-none d-sm-block">
-        <h4 class="mt-3">Выполненные пункты ТЗ</h4>
+        <h4 class="mt-3">Описание</h4>
         <ol>
             <li>nuxt.js последней версии</li>
-            <li>все урл вида /catalog ведут на 1 файл в папке pages - catalog.vue</li>
+            <li>все URL вида /catalog ведут на 1 файл в папке pages - catalog.vue</li>
             <li>вся логика работы с каталогом помещена в store/index.js</li>
             <li>при загрузке страницы определяется текущая категория</li>
             <li>меню отражает древовидную структуру категорий</li>
             <li>меню сворачиваться\разворачиваться, ссылки являются nuxt-link</li>
             <li>меню доступно на всех страницах</li>
-            <li>о ЧПУ в ТЗ не сказано, и для наглядности breadcrumbs и url оставлено by id</li>
-            <li>зато responsive</li>
-            <li><b>Vue.js != Nuxt.js + Vue.js, поэтому долго</b></li>
+            <li>для наглядности breadcrumbs и url оставлено by id</li>
+            <li>responsive</li>
         </ol>
         </div>
     </div>
