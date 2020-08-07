@@ -1,4 +1,4 @@
-# project-symmetrica
+# Dynamic Nested Routes with many levels and one page
 
-> Nuxt.js project
+> Nuxt.js + Vue.js project
 
